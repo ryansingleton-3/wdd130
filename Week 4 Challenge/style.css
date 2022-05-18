@@ -1,0 +1,45 @@
+body {
+    background-color:rgb(251,167,201);
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+
+h1 {
+   color: white;
+
+}
+
+h1:hover {
+    color: black;
+}
+
+ol {
+    width: 40%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+img {
+    width: 20%;
+    margin: 10px;
+}
+
+h2 {
+    color: white;
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#russell-m-nelson {
+    width: 20%;
+    margin: 0 auto;
+}
+
+#president {
+    width: 40%;
+    margin: 0 auto;
+}
