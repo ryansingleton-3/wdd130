@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Questrial&display=swap');
+
 #content div {
     max-width: 1600px;
     margin: 0 auto;
@@ -8,6 +10,7 @@ nav a {
     text-align: center;
     color:black;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -26,6 +29,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #4A8FE7;
@@ -33,6 +40,10 @@ main section {
 
 body {
     background-color: black;
+    font-family: 'Alegreya','Questrial', 'sans-serif';
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -43,16 +54,30 @@ nav a:hover {
     color:#73FBD3;
 }
 
+.home-title {
+    color:white;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 .book {
     background-color: #73FBD3;
     color: #4A8FE7;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join {
     background-color: #4A8FE7;
     color: #73FBD3;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 
@@ -66,16 +91,34 @@ background-color: white;
 color: #4A8FE7;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #73FBD3;
+}
+}
+
 .msg {
     background-color: #73FBD3;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #4A8FE7;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
-.home-title {
-    color:white;
+h2 {
+margin: 0;
 }
 
 h4 {
@@ -103,12 +146,21 @@ footer a:hover {
     color: black;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -118,3 +170,4 @@ footer a:hover {
 footer h3 a:hover {
     text-decoration: underline;
 }
+
