@@ -77,6 +77,17 @@ nav a {
     grid-template-columns: repeat(10, 1fr);
 }
 
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.card-img {
+    border: 10px solid #73FBD3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
 .card-img, .mountains {
     width: 100%;
 }
@@ -180,16 +191,7 @@ color: #4A8FE7;
     margin: 200px 0;
 }
 
-.card-img {
-    border: 10px solid #73FBD3;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-}
 
-card-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
-}
 
 
 .msg p {
