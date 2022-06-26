@@ -4,6 +4,7 @@
     max-width: 1600px;
     margin: 0 auto;
     text-align: center;
+    font-size: 22px;
 }
 
 header {
@@ -131,11 +132,11 @@ nav a {
 
 }
 
-main section {
+.home-grid section {
     text-align: center;
 }
 
-main section img {
+.home-grid img {
     box-sizing: border-box;
 }
 
@@ -147,7 +148,7 @@ main section img {
 body {
     background-color: black;
     font-family: 'Alegreya','Questrial', 'sans-serif';
-    font-size: 22px;
+    
 }
 
 .home-title {
@@ -241,9 +242,85 @@ footer a:hover {
 footer h3 a:hover {
     text-decoration: underline;
 }
+/* ------------------Page 2: Rivers -----------*/
 
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr;
+}
 
+#salmon-river, #grand-canyon {
+    background-color: #73FBD3;
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid white;
+    color: black;
+    margin-bottom: 50px;
+    
+}
 
+#desolation-canyon {
+    background-color: #4A8FE7;
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#salmon-river-img {
+    grid-column: 2/3;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#salmon-river-text {
+    grid-column: 1/2;
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#desolation-canyon-img {
+    grid-column: 1/2;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#desolation-canyon-text {
+    grid-column: 2/3;
+    margin-left: 10px;
+    margin-right: 10px;
+}   
+
+#grand-canyon-img {
+    grid-column: 2/3;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#grand-canyon-text {
+    grid-column: 1/2;
+    text-align: center;
+    vertical-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#grand-canyon-text p, #grand-canyon-text h2,
+#desolation-canyon-text h2,#desolation-canyon-text p,
+#salmon-river-text h2, #salmon-river-text p  {
+padding-top: 5%;
+text-align: center;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
