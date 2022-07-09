@@ -51,7 +51,7 @@ main {
 section:nth-of-type(1) {
     background-color: #1B1725;
     color: white;
-    margin-top: 20px;
+    margin-top: 30px;
     grid-column: 1/9;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -128,7 +128,7 @@ p:nth-of-type(1) {
 section:nth-of-type(2) {
     background-color: #A499B3;
     color: white;
-    margin-top: 20px;
+    margin-top: 30px;
     grid-column: 1/9;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -192,7 +192,7 @@ section:nth-of-type(3) {
     height: 60%;
     align-content: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 0px;
 }
 
@@ -212,6 +212,7 @@ section:nth-of-type(3) {
 #icon-container img {
    margin: 1% 4% 1% 4%;
    z-index: 4;
+   height:100px;
    
 }
 
@@ -257,6 +258,7 @@ footer h3 a:hover {
 
 footer img {
     padding: 10px;
+    max-height: 70px;
 }
 
 footer img:hover {
