@@ -386,3 +386,102 @@ footer img:hover {
 }
 
 
+#education {
+    text-align: center;
+    height: 60vh;
+    width: 100%;
+    background-color: #1B1725;
+    color: white;
+    margin-top: 30px;
+    padding-top: 7%;
+    font-family: 'Alegreya', serif;
+}
+
+#experience {
+    text-align: center;
+    height: 65vh;
+    width: 100%;
+    background-color: #226CE0;
+    color: white;
+    margin-top: 30px;
+    padding-top: 5%;
+    font-family: 'Alegreya', serif;
+}
+
+#skills {
+    text-align: center;
+    height: 40vh;
+    width: 100%;
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    padding-top: 7%;
+    font-family: 'Alegreya', serif;
+}
+
+.collapsible {
+    background-color: #226CE0;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 1.7rem;
+    border: 1px solid black;
+    
+    
+  }
+  
+.active, .collapsible:hover {
+    background-color: #A499B3;
+
+}
+  
+.content {
+    /* padding: 0 18px; */
+    max-height: 0;
+    width: 50%;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    text-align: center;
+    margin-left: 25%;
+    background-color: #f1f1f1;
+    color: black;
+    
+}
+
+.content ul {
+    text-align: center;
+    list-style-position: inside;
+    }
+
+.collapsible-container:nth-child(2) {
+    text-align: center;
+}
+
+.collapsible-container:nth-child(3) {
+    text-align: center;
+}
+
+#experience .collapsible:nth-child(1) {
+    background-color: #A499B3;
+}
+
+#experience .collapsible:nth-child(1):hover {
+    background-color: black;
+}
+
+#experience h2 {
+    font-size: 3rem;
+}
+
+#skills h2 {
+    font-size: 3rem;
+}
+
+#skills ul {
+    text-align: center;
+    list-style-position: inside;
+}

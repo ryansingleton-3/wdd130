@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/ryan_singleton_portfolio/index.js">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Ryan Singleton - Resume</title>
+    <title>Ryan Singleton - Resumé</title>
 </head>
 <header>
     <a id="logo_link" href="index.html">
@@ -14,62 +15,86 @@
     <nav>
         <a href="index.html">About</a>
         <a href="portfolio.html">Portfolio</a>
-        <a href="resume.html">Resume</a>
+        <a href="resume.html">Resumé</a>
     </nav>
 </header>
 <body>
+
     <main id="resume">
-        <h1>Resume</h1>
+        <h1>Resumé</h1>
         <h3>Summary</h3>
     I am a soon-to-be graduate of a Front End Engineering Bootcamp by Promineo Tech (July 2022). I have just under 1.5 years of experience in Front End Development, including a learning platform called Codecademy, and I am pursuing a Bachelor's Degree in Computer Science from BYU-Idaho. I am very experienced with HTML, CSS,  and JavaScript. I am also familiar with React.js, Python, Bootstrap, jQuery, AJAX, Git, GitHub, Object-Oriented Programming (OOP), and Responsive Web Design. 
 Also, I have extensive knowledge in digital marketing in general, as well as SEM (Search Engine Marketing). I have multiple certifications in the industry and have worked at a digital marketing agency for almost 2 years. 
         <section id="education">
             <h2>Education</h2>
-            <div>
-                <h3>BYU-Idaho</h3>
-                <ul>
-                    <li>Conversion of Software Requirement into Code</li>
-                    <li>Development of Dynamic Webpages & Programs</li>
-                    <li>Python, HTML/CSS, Java, & JavaScript</li>
-                    <li>Develop Design & Problem-Solving Skills</li>
-                    <li>Develop Strong Communication & Interpersonal Skills</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Promineo Tech Bootcamp</h3>
-                <ul>
-                    <li>Use HTML/CSS, JavaScript, React.js, Bootstrap</li>
-                    <li>Unit Testing</li>
-                    <li>Object-Oriented Programming</li>
-                    <li>New Technologies and Updates</li>
-                    <li>jQuery & AJAX</li>
-                </ul>
-            </div>
+                
+                <div class="collapsible-container">
+                <button class="collapsible">Promineo Tech</button>
+                        <div class="content">
+                            <h3>Front End Software Development BootCamp</h3>
+                            <ul>
+                                <li>Use HTML/CSS, JavaScript, React.js, Bootstrap</li>
+                                <li>Unit Testing</li>
+                                <li>Object-Oriented Programming</li>
+                                <li>New Technologies and Updates</li>
+                                <li>jQuery & AJAX</li>
+                            </ul>
+                        </div>
+                    </div>    
+                    <div class="collapsible-container">
+                    <button class="collapsible">BYU-Idaho</button>
+                        <div class="content">
+                        <h3>Bachelor's Degree - Computer Science (Graduation March 2024)</h3>
+                            <ul>
+                                <li>Conversion of Software Requirement into Code</li>
+                                <li>Development of Dynamic Webpages & Programs</li>
+                                <li>Python, HTML/CSS, Java, & JavaScript</li>
+                                <li>Develop Design & Problem-Solving Skills</li>
+                                <li>Develop Strong Communication & Interpersonal Skills</li>
+                            </ul>
+                        </div>
+                    </div>    
+                    <div class="collapsible-container">
+                        <button class="collapsible">Codecademy</button>
+                        <div class="content">
+                            <h3>Front End Engineer Career Path</h3>
+                            <ul>
+                                <li>HTML, CSS, JavaScript</li>
+                                <li>Responsive Design</li>
+                                <li>Git and GitHub</li>
+                            </ul>
+                        </div>
+                    </div>
+                
         </section>
 
         <section id="experience">
             <h2>Experience</h2>
-            <div>
-                <h3>Amazon Ads Lead PPC Specialist</h3>
-                <h4>Digital Marketing Agency</h4>
-                <ul>
-                    <li>Generate an average of 30% year over year sales increase for each client over past 1.5 years</li>
-                    <li>Manage $200-$250k of monthly ad spend and over $3 Million in monthly sales</li>
-                    <li>Analyze complex data trends and strategies within client accounts of more than 300 ad campaigns and communicate with non-technical teams in an understandable way</li>
-                    <li>Collaborate with both external and internal teams of 10+ people to reach individual and company-wide sales and efficiency goals</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Assistant to the Mission President - Volunteer</h3>
-                <h4>The Church of Jesus Christ of Latter-Day Saints</h4>
-                <ul>
-                    <li>Trained entire organization of over 250 volunteers in prospecting, networking, communication and leadership, went on to become leaders in organization</li>
-                    <li>Directed and organized volunteer efforts of over 100 people daily</li>
-                    <li>Organized collaboration of teams and assigned volunteers to new positions every 6 weeks to increase productivity and effectiveness</li>
-                    <li>Systematized efforts in prospecting and reporting and improved measurability across organization</li>
-                    <li>Communicated progress and strategy implementation to the Mission President (head of organization) on a weekly basis</li>
-                </ul>
-            </div>
+            <div class="collapsible-container">
+                <button class="collapsible">Amazon Ads Lead PPC Specialist</button>
+                        <div class="content">
+                            <h3>OMG Commerce (Digital Marketing Agency)</h3>
+                            <ul>
+                                <li>Generate an average of 30% year over year sales increase for each client over past 1.5 years</li>
+                                <li>Manage $200-$250k of monthly ad spend and over $3 Million in monthly sales</li>
+                                <li>Analyze complex data trends and strategies within client accounts of more than 300 ad campaigns and communicate with non-technical teams in an understandable way</li>
+                                <li>Collaborate with both external and internal teams of 10+ people to reach individual and company-wide sales and efficiency goals</li>
+                            </ul>
+                        </div>
+                    </div>    
+                    <div class="collapsible-container">
+                    <button class="collapsible">Assistant to the Mission President - Volunteer</button>
+                        <div class="content">
+                        <h3>The Church of Jesus Christ of Latter-Day Saints</h3>
+                            <ul>
+                                <li>Trained entire organization of over 250 volunteers in prospecting, networking, communication and leadership, went on to become leaders in organization</li>
+                                <li>Directed and organized volunteer efforts of over 100 people daily</li>
+                                <li>Organized collaboration of teams and assigned volunteers to new positions every 6 weeks to increase productivity and effectiveness</li>
+                                <li>Systematized efforts in prospecting and reporting and improved measurability across organization</li>
+                                <li>Communicated progress and strategy implementation to the Mission President (head of organization) on a weekly basis</li>
+                            </ul>
+                        </div>
+                    </div>
         </section>
 
         <section id="skills">
@@ -87,16 +112,18 @@ Also, I have extensive knowledge in digital marketing in general, as well as SEM
             </div>
             
         </section>
-        <section class="content-block">
-            <h1>Technologies</h1>
-            <img src="images/html5.png" height="100px" alt="HTML5 icon">
-            <img src="images/css3 (1).png" height="100px" alt="CSS3 icon">
-            <img src="images/javascript (2).png" height="100px" alt="JavaScript icon">
-            <img src="images/node-js.png" height="100px" alt="NodeJS icon">
-            <img src="images/react.png" height="100px" alt="React icon">
-            <img src="images/python.png" height="100px" alt="Python icon">
-            <img src="images/git.png" height="100px" alt="Git icon">
-            <img src="images/github.png" height="100px" alt="GitHub icon">
+        <section class="content-block technologies-section">
+            <h2 id="technologies">Technologies</h2>
+            <div id="icon-container">
+                <img src="images/html5.png" alt="HTML5 icon">
+                <img src="images/css3(1).png" alt="CSS3 icon">
+                <img src="images/javascript(2).png" alt="JavaScript icon">
+                <img src="images/node-js.png" alt="NodeJS icon">
+                <img src="images/react.png" alt="React icon">
+                <img src="images/python.png" alt="Python icon">
+                <img src="images/git.png" alt="Git icon">
+                <img src="images/GitHub-Mark.png" id="github" alt="GitHub icon">
+            </div>
                 
         </section>
 
@@ -121,6 +148,7 @@ Also, I have extensive knowledge in digital marketing in general, as well as SEM
             <img src="images/social_icons/email.png" style="height: 50px;" alt="email icon">
     </div>
 </footer>
+<script src="/ryan_singleton_portfolio/index.js"></script>
 </body>
 </html>
 
