@@ -134,29 +134,45 @@ Also, I have extensive knowledge in digital marketing in general, as well as SEM
         </section>
 
 
-</main>
-    <footer>
-        <h3><a href="site-plan.html">Site Plan</a></h3>
-        <div class="social">
-            <a href="https://www.facebook.com/ryan.singleton.771/" target="_blank">
-                <img src="images/social_icons/facebook-logo-2019.png" style="height: 50px;" alt="fb icon">
-            </a>
-            <a href="https://github.com/ryansingleton-3" target="_blank">
-                <img src="images/github.png" style="height: 50px;" alt="github icon">
-            </a>
-            <a href="https://www.linkedin.com/in/ryansingleton3/" target="_blank">
-                <img src="images/social_icons/linkedin.png" style="height: 50px;" alt="linkedin icon">
-            </a>
-            <a href="https://angel.co/u/ryan-singleton-2" target="_blank">
-                <img src="images/social_icons/angel.co_icon.webp" style="height: 50px; border-radius: 50px;" alt="angel.co icon">
-            </a>
-            <a href="mailto:ryanbsingleton3@gmail.com" target="_blank">
-                <img src="images/social_icons/email.png" style="height: 50px;" alt="email icon">
-            </a>
-        </div>
-    </footer>
-    <script src="/ryan_singleton_portfolio/script.js"></script>
-</body>
+    </main>
+        <footer>
+            <h3><a href="site-plan.html">Site Plan</a></h3>
+            <div class="social">
+                <a href="https://www.facebook.com/ryan.singleton.771/" target="_blank">
+                    <img src="images/social_icons/facebook-logo-2019.png" style="height: 50px;" alt="fb icon">
+                </a>
+                <a href="https://github.com/ryansingleton-3" target="_blank">
+                    <img src="images/github.png" style="height: 50px;" alt="github icon">
+                </a>
+                <a href="https://www.linkedin.com/in/ryansingleton3/" target="_blank">
+                    <img src="images/social_icons/linkedin.png" style="height: 50px;" alt="linkedin icon">
+                </a>
+                <a href="https://angel.co/u/ryan-singleton-2" target="_blank">
+                    <img src="images/social_icons/angel.co_icon.webp" style="height: 50px; border-radius: 50px;" alt="angel.co icon">
+                </a>
+                <a href="mailto:ryanbsingleton3@gmail.com" target="_blank">
+                    <img src="images/social_icons/email.png" style="height: 50px;" alt="email icon">
+                </a>
+            </div>
+        </footer>
+        <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+            content.style.maxHeight = null;
+            } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+            } 
+        });
+        }
+        </script>
+        <script src="/ryan_singleton_portfolio/script.js"></script>
+    </body>
 </html>
 
 
