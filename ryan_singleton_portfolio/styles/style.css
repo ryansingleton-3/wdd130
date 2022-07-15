@@ -41,6 +41,18 @@ nav a {
 
 /* ------------------------------ BODY -----------------------------------*/
 
+h1, h2, h3, h4 {
+    font-family: 'Questrial', sans-serif;
+}
+
+p, li {
+    font-family: 'Alegreya', serif;
+}
+
+li {
+    line-height: 150%;
+}
+
 .main-section {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -74,6 +86,23 @@ nav a {
     justify-items: center;
     font-size: 1.2rem;
     font-family: 'Alegreya', serif;
+}
+
+#summary {
+    width: 100%;
+    text-align: center;
+    background-color: #A499B3;
+    margin: 0 auto;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#summary-p {
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 150%;
 }
 
 #portfolio-section-one p {
@@ -415,8 +444,13 @@ footer img:hover {
     background-color: white;
     color: black;
     margin-top: 30px;
-    padding-top: 7%;
+    /* padding-top: 2%; */
     font-family: 'Alegreya', serif;
+}
+
+#skills li {
+    font-size: 1.5rem;
+    line-height: 150%;
 }
 
 .collapsible {
@@ -471,6 +505,10 @@ footer img:hover {
 
 #experience .collapsible:nth-child(1):hover {
     background-color: black;
+}
+
+#education h2 {
+    font-size: 3rem;
 }
 
 #experience h2 {
