@@ -126,6 +126,14 @@ li {
     transform: scale(1.1);
 }
 
+#portfolio-section-two video:hover {
+    transform: scale(1.1);
+}
+
+#portfolio-section-three video:hover {
+    transform: scale(1.1);
+}
+
 
 h1 {
     grid-column: 1/7;
